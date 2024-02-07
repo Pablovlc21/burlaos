@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background-image: url("../IMG/campo2.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 160rem;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.boton a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    margin-right: 25px;
+    margin-left: -25px;
+}
+
+.boton a:hover {
+    background-color: #555;
+}
+
+header {
+    background-image: url('../IMG/fondo.jpg');
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#titulo h1 {
+    font-size: 3em;
+    margin-left: 35px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 75px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    color: yellow;
+    font-size: 20px;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    animation: sliderAnimation 10s linear infinite;
+}
+
+.slider {
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 15s infinite linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+    scroll-snap-align: start;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    25% { margin-left: 0; }
+
+    30% { margin-left: -100%; }
+    55% { margin-left: -100%; }
+
+    60% { margin-left: -200%; }
+    85% { margin-left: -200%; }
+
+    90% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}

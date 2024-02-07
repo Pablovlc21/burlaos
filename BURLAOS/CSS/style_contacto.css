@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.boton a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    margin-right: 25px;
+    margin-left: -25px;
+}
+
+.boton a:hover {
+    background-color: #555;
+}
+
+header {
+    background-image: url('../IMG/fondo.jpg');
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#titulo h1 {
+    font-size: 3em;
+    margin-left: 35px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 75px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+.ubicacion {
+    text-align: center;
+}
+
+.ubicacion img {
+    max-width: 700px;
+    height: auto;
+}
+
+.datos_contacto{
+    text-align: center;
+}
